@@ -1,2 +1,2 @@
-CREATE USER 'martin'@'localhost' IDENTIFIED BY 'some_secure_password';
-GRANT SELECT, UPDATE ON your_database_name.Books TO 'martin'@'localhost';
+CREATE USER 'martin'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT, UPDATE ON Bookstroe.Books TO 'martin'@'localhost';
